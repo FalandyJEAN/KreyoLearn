@@ -12,7 +12,6 @@ body {
 }
 
 header {
-    background-color: #3d3d3d;
     color: rgba(255, 253, 253, 0.902);
     padding: 20px;
     display: flex;
@@ -76,7 +75,7 @@ nav a{
 
 #brand{
     height: 89.6vh;
-    background-color: #3d3d3d;
+    background-image: radial-gradient(circle at 0% 100%, #3d3d3d,#0074cc);
 }
 
 #brand h2{
