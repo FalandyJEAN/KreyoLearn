@@ -28,8 +28,7 @@ header {
 }
 
 .scroll.scrolled {
-    background-color:white;
-    color: black;
+    background-image: radial-gradient(circle at 0% 100%, #3d3d3d,#1f384a);
 }
 
 .scroll.scrolled span {
@@ -37,7 +36,7 @@ header {
 }
 
 .scroll.scrolled nav li a {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -74,8 +73,8 @@ nav a{
 }
 
 #brand{
-    height: 89.6vh;
-    background-image: radial-gradient(circle at 0% 100%, #3d3d3d,#0074cc);
+    height: 100vh;
+    background-image: radial-gradient(circle at 0% 100%, #3d3d3d,#1f384a);
 }
 
 #brand h2{
@@ -91,7 +90,31 @@ nav a{
     color: white;
 }
 
+.main{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
+#kategori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+    height: 100px;
+}
+
+.main div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
 
 
 
